@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: AGPL-3.0
+#
 # Maintainer: Felix Yan <felixonmars@archlinux.org>
 
 pkgname=python-nodeenv
@@ -29,3 +31,5 @@ package() {
 
   install -Dm644 LICENSE -t "$pkgdir"/usr/share/licenses/$pkgname/
 }
+
+# vim:set sw=2 sts=-1 et:
